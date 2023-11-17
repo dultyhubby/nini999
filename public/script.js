@@ -1,6 +1,6 @@
 document.getElementById('loginBtn').addEventListener('click', () => {
     console.log('Login button clicked');
-    const spotifyAuthURL = 'http://localhost:3000/login';
+    const spotifyAuthURL = 'https://dultyhubby.github.io/nini999/public/index.html';
     window.open(spotifyAuthURL, '_blank');
 });
 
